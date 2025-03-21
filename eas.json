@@ -1,6 +1,4 @@
-git add eas.json app.json
-git commit -m "Add EAS and Expo config files"
-git push
+
 {
   "build": {
     "development": {
