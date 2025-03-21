@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Battlefield2048",
-    "slug": "2042blocks",
+    "slug": "2042blocks",              
     "owner": "mactrash93",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,9 +20,12 @@
     "android": {
       "package": "com.yourname.battlefield2048"
     },
+    "cli": {
+      "appVersionSource": "appVersion"
+    },
     "extra": {
       "eas": {
-        "projectId": "4d9a2fa4-3bf2-4e52-9d8d-64a7d1f286db"
+        "projectId": "your-project-id-here"
       }
     }
   }
