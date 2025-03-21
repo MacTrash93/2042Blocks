@@ -1,8 +1,8 @@
-
 {
   "expo": {
     "name": "Battlefield2048",
     "slug": "battlefield2048",
+    "owner": "mactrash93",
     "version": "1.0.0",
     "orientation": "portrait",
     "platforms": ["android"],
@@ -19,6 +19,11 @@
     "assetBundlePatterns": ["**/*"],
     "android": {
       "package": "com.yourname.battlefield2048"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4d9a2fa4-3bf2-4e52-9d8d-64a7d1f286db"
+      }
     }
   }
 }
